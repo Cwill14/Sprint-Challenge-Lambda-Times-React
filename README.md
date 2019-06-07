@@ -29,9 +29,22 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+    Prop Types are used to check what type of data we expect for props, to help prevent any errors.
+
 - [ ] Describe a life-cycle event in React?
+
+    The lifecycle is the "life" of a component in React. First is the "birth" or mounting phase, where we give the initial data and rendering. Then there is the updating phase, where if one updates state, it re-renders or updates. Last is the "death" or unmounting, when we remove the component from the DOM.
+
 - [ ] Explain the details of a Higher Order Component?
+
+    A Higher Order Component is really a component that is being passed another component as an argument. This can help us keep our code DRY.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+    1. You can use native CSS, which is useful if you have little bit of styling to do, but it is more complex.
+    2. You can style with a preprocessor, which I think is useful is you have a lot of styling to do.
+    3. You can used styled components, which lets you insert CSS into your JavaScript files, and use custom JSX tags with custom styling. This is useful if you only want to deal with JavaScript, or you only have some styling that isn't super complicated.
+    4. Also, you can use bootstrap and reactstrap libraries to use pre-built styling if you have a large project to style, and you don't have a lot of time to style as much yourself.
 
 ## Project Setup
 
@@ -42,7 +55,7 @@ Follow these steps to set up your project:
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 - [ ] From within the `lambdatimes` folder run `yarn` and then `yarn start`. This will open your locally hosted application in your browser. Once you are ready move onto the next steps.
 - [ ] Inside the `Content` folder you will find all 5 components that make up the content of the application. The flow goes like this: `Content > Tabs > Tab` and `Content > Cards > Card`. Follow the directions in the `Content` component to get your data ready.
 
