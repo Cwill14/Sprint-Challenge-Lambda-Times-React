@@ -30,7 +30,7 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
 
-    Prop Types are used to check what type of data we expect for props, to help prevent any errors.
+    Prop Types are used to check what type of data we expect for props, to help prevent any errors that may arise from properties receiving the wrong type of data.
 
 - [ ] Describe a life-cycle event in React?
 
@@ -38,12 +38,12 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 - [ ] Explain the details of a Higher Order Component?
 
-    A Higher Order Component is really a component that is being passed another component as an argument. This can help us keep our code DRY.
+    A Higher Order Component is really a component that is being passed another component as an argument. Essentially, since Components are functions, a Higher Order Component is just a big callback function. This can help us keep our code DRY.
 
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
-    1. You can use native CSS, which is useful if you have little bit of styling to do, but it is more complex.
-    2. You can style with a preprocessor, which I think is useful is you have a lot of styling to do.
-    3. You can used styled components, which lets you insert CSS into your JavaScript files, and use custom JSX tags with custom styling. This is useful if you only want to deal with JavaScript, or you only have some styling that isn't super complicated.
+    1. You can use native CSS, which is useful if you have only little bit of styling to do.
+    2. You can style with a preprocessor, which I think is useful is you have a lot of styling to do, as you can get very detailed.
+    3. You can used styled components, which lets you insert CSS into your JavaScript files, and use custom JSX tags with custom styling. This is useful if you only want to deal with JavaScript, or you only have some styling that isn't super complicated, but are going to use it over and over again on similar HTML elements.
     4. Also, you can use bootstrap and reactstrap libraries to use pre-built styling if you have a large project to style, and you don't have a lot of time to style as much yourself.
 
 ## Project Setup
